@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "BASE_PATH=/${npm_package_name} next build",
     "start": "next start"
   },
   "dependencies": {
